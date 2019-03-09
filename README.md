@@ -1,2 +1,2 @@
 # Hangman
-classic hangman developed in Python
+Classic hangman developed in Python
