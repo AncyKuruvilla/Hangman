@@ -17,9 +17,8 @@ def getGuess(alreadyGuessedLetters):
         else:
             return guess
 
-def getRandomWord(words):
-    wordIndex = random.randint(0, len(words)- 1)
-    return words[wordIndex]
+def getRandomKey(words):
+    return random.choice(list(words))
 
 def printHangmanPic(hangmanIndex, hangmanPic) :
         print(hangmanPic[hangmanIndex])
@@ -30,7 +29,7 @@ def checkTheLetter(secretWord, guessedLetter) :
         return True
     return False
 
-def showBoard(hangmanPic, missedLetters, correctGuessedLetters, secretWord) :
+def showBoard(hangmanPic, missedLetters, correctGuessedLetters, secretWord, clue) :
     printHangmanPic(len(missedLetters), hangmanPic)
     print()
     
@@ -38,12 +37,12 @@ def showBoard(hangmanPic, missedLetters, correctGuessedLetters, secretWord) :
     for letter in missedLetters:
         print(letter, end=' ')
     print()
+    print("Clue : "+ clue)
     blanks = '_' * len(secretWord)
     # replace blank with the correct guessed letter
     for i in range(len(secretWord)) :
         if(secretWord[i] in correctGuessedLetters):
             blanks = blanks[:i] + secretWord[i] + blanks[i+1:]
-            # blanks[i] = secretWord[i]
 
     for letter in blanks :
         print(letter, end = ' ')
@@ -56,6 +55,15 @@ def showBoard(hangmanPic, missedLetters, correctGuessedLetters, secretWord) :
             print('Oh you lost, the word you were gussing was ' + secretWord)
         return True
     return False
+
+def readFile() :
+    file = open("wordlist.txt","r")
+    wordList = {"anfangen":"to begin/start"}
+    for line in file :
+        separatedWord = line.split(',')
+        wordList.update({separatedWord[0]: separatedWord[1]})
+    file.close()
+    return wordList
 
 HANGMANPICS = ['''
 
@@ -115,9 +123,7 @@ HANGMANPICS = ['''
      |
  =========''']
 
-words = 'schlafen sprechen reden teilnehmer'.split()
-#missedLetters = 'no letters are missed'
-#correctGuessedLetters = 'no correct words are been set'
+words = readFile()
 
 print('Please enter your name')
 name = input()
@@ -125,11 +131,12 @@ playAgain ='yes'
 while playAgain == 'yes' or playAgain == 'y' :
     missedLetters = ''
     correctGuessedLetters = ''
-    secretWord = getRandomWord(words)
+    secretWord = getRandomKey(words)
+    clue = words[secretWord]
     endOfGame = False
     while not(endOfGame):
         introToHangman(name)
-        endOfGame = showBoard(HANGMANPICS, missedLetters, correctGuessedLetters, secretWord)
+        endOfGame = showBoard(HANGMANPICS, missedLetters, correctGuessedLetters, secretWord, clue)
         if not(endOfGame):
             guess = getGuess(correctGuessedLetters+missedLetters)
 

@@ -1,0 +1,130 @@
+allein,alone
+andere,other
+anderthalb,one and a half
+Antwort,answer
+antworten,to answer
+Art,sort/kind
+AufWiedersehen,good-bye!
+Augenblick,moment
+ausgezeichnet,excellent
+außer,except for
+befriedigend,satisfactory
+beginnen,to begin/start
+begrüßen,to greet
+behalten,to keep
+behandeln,to treat
+Behandlung,treatment
+beide,both
+Beispiel,example
+bekommen,to receive
+beliebt,popular
+bemerken,to notice
+benutzen,to use
+bequem,comfortable
+besitzen,to own
+besonders,particular(ly)
+besser,better
+besprechen,to discuss
+bestimmt,definitely
+bestrafen,to punish
+besuchen,to visit
+bieten,to offer
+billig,cheap
+bisschen,a little
+bitte,please
+brauchen,to need
+brechen,to break
+breit,wide
+bringen,to bring
+danke,thank you
+Datum,date
+dauern,to last
+denken,to think
+Ding,thing
+drücken,to press/push
+Dutzend,a dozen
+eben,just
+ebenso,just as
+ehemalig,former/previous
+eigen,own
+eilen,to hurry (up)
+einander,one another/each other
+einige,some/a few
+einverstanden,agreed
+eng,narrow/tight
+entfernt,away/distant
+entschuldigen,excuse me!
+erinnern,remember
+erkennen,to recognise
+erzählen,to tell
+fallen,to fall
+falsch,wrong
+fast,almost
+fehlen,to be missing
+Fehler,mistake
+fertig,ready/finished
+finden,to find
+folgen,to follow
+fragen,to ask
+geben,to give
+genau,exactly
+genug,enough
+geschlossen,closed
+getrennt,separate(ly)
+glauben,to think/believe
+gleich,immediately (the same)
+glücklich,happy (good luck)
+gratulieren,to congratulate
+Grund,ground/reason
+Gruss,greeting
+günstig,favourable
+halten,to hold/to stop(moving)
+hoffen,to hope
+inbegriffen,included
+kaputt,broken
+kriegen,to get
+langsam,slow
+leider,unfortunately
+leihen,to borrow
+machen,to do/make
+mäßig,moderate
+mehr,more
+mehrere,several
+Meinung,opinion
+möglich,possible
+natürlich,of course
+nehmen,to take
+Qualität,quality
+Quatsch,nonsense
+rufen,to call
+ruhig,quiet
+sagen,to say/tell
+Schade,a pity!
+schlecht,bad
+schließen,to close (lock)
+schließlich,finally
+schlimm,bad
+schrecklich,terrible
+schreien,to shout/scream
+seitdem,since
+Sekunde,second
+sogar,even
+sonst,otherwise
+überall,everywhere
+unmöglich,impossible
+verschieden,different/ various
+Verzeihung,Sorry!
+vielleicht,perhaps
+Viertel,a quarter
+voll,full
+wechseln,to change
+weil,because
+wenig,little
+wenigstens,at least
+Zahl,figure/number
+ziehen,to pull
+Ziel,aim
+ziemlich,quite/fairly
+zufrieden,contented
+zumachen,to close
+zusammen,together 
